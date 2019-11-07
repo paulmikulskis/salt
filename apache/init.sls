@@ -12,7 +12,6 @@ index_html:
     - source: salt://apache/templates/index.html
 
 
-apache_service:
+httpd:
   service.running:
-    - name: httpd.service
     - enable: True
